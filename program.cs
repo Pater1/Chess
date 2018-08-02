@@ -22,11 +22,6 @@ namespace Chess
             window ChessGame = new window("Agd","Marto");
             ChessGame.AddEvents();
             Application.Run(ChessGame);
-            
-           
-           
-            
-            
         }
 
     }

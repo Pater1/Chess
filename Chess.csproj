@@ -50,6 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ChessBoard\ChessBoard.cs" />
+    <Compile Include="ChessBoard\ChessBoard960.cs" />
     <Compile Include="ChessBoard\ChessBox.cs" />
     <Compile Include="ChessGame.cs" />
     <Compile Include="Exeptions\ChessBoxExeption.cs" />
@@ -78,6 +79,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Include="RandomExtensions.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config">

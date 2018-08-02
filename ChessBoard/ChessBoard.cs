@@ -54,7 +54,7 @@ namespace Chess
                 return this.chessBoard;
             }
         }
-        public void placeBlackFigures()
+        public virtual void placeBlackFigures()
         {
             Figure[] pawns = new Figure[8];
             Figure[] otherFigures = new Figure[8];
@@ -99,7 +99,7 @@ namespace Chess
 
 
         }
-        public void placeWhiteFigures()
+        public virtual void placeWhiteFigures()
         {
             Figure[] pawns = new Figure[8];
             Figure[] otherFigures = new Figure[8];

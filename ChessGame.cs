@@ -12,7 +12,7 @@ namespace Chess
         public bool lastMovedWhite;
         public ChessGame()
         {
-            board = new ChessBoard();
+            board = new ChessBoard960();
             board.placeBlackFigures();
             board.placeWhiteFigures();
             lastMovedWhite=false;

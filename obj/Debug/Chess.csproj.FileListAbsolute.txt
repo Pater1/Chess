@@ -7,3 +7,13 @@ D:\Projects\Chess\Chess\obj\Debug\Chess.csprojResolveAssemblyReference.cache
 D:\Projects\Chess\Chess\obj\Debug\Chess.GUI.window.resources
 D:\Projects\Chess\Chess\obj\Debug\Chess.Properties.Resources.resources
 D:\Projects\Chess\Chess\obj\Debug\Chess.csproj.GenerateResource.Cache
+E:\Neumont\C#\ExitingProjects\OldChess\ChessCs2\bin\Debug\Chess.exe.config
+E:\Neumont\C#\ExitingProjects\OldChess\ChessCs2\bin\Debug\Chess.exe
+E:\Neumont\C#\ExitingProjects\OldChess\ChessCs2\bin\Debug\Chess.pdb
+E:\Neumont\C#\ExitingProjects\OldChess\ChessCs2\obj\Debug\Chess.csprojAssemblyReference.cache
+E:\Neumont\C#\ExitingProjects\OldChess\ChessCs2\obj\Debug\Chess.GUI.window.resources
+E:\Neumont\C#\ExitingProjects\OldChess\ChessCs2\obj\Debug\Chess.Properties.Resources.resources
+E:\Neumont\C#\ExitingProjects\OldChess\ChessCs2\obj\Debug\Chess.csproj.GenerateResource.cache
+E:\Neumont\C#\ExitingProjects\OldChess\ChessCs2\obj\Debug\Chess.csproj.CoreCompileInputs.cache
+E:\Neumont\C#\ExitingProjects\OldChess\ChessCs2\obj\Debug\Chess.exe
+E:\Neumont\C#\ExitingProjects\OldChess\ChessCs2\obj\Debug\Chess.pdb
