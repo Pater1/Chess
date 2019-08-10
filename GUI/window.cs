@@ -23,19 +23,18 @@ namespace Chess.GUI
             boxes = new List<PictureBox>(64);
             InitializeComponent();
             AddBoxes();
-            currentGame = new ChessGame();
-            //this.playerWhiteName.Text = firstName;
-            //this.playerBlackName.Text = SecondName;
-            
+            InitGame<ChessBoard960>();
+        }
+        public void InitGame<T>() where T : ChessBoard, new()
+        {
+            currentGame = ChessGame.BuildNew<T>();
             RefreshItColors();
             RefreshFigures();
             isWhitePlayersTurn = true;
-
-            
         }
         public void StartGame()
         {
-            while(true)
+            while (true)
             {
                 GetWhitePlayersTurn();
                 GetBlackPlayersTurn();
@@ -575,6 +574,29 @@ namespace Chess.GUI
         private void label2_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void Label19_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        string comboBoxLast = "";
+        private void ComboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            switch(((ComboBox)sender).Text){
+                case "Normal":
+                    comboBoxLast = "Normal";
+                    InitGame<ChessBoard>();
+                    break;
+                case "Chess 960":
+                    comboBoxLast = "Chess 960";
+                    InitGame<ChessBoard960>();
+                    break;
+                default:
+                    ((ComboBox)sender).Text = comboBoxLast;
+                    break;
+            }
         }
     }
 }

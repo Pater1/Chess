@@ -10,9 +10,15 @@ namespace Chess
     {
         private ChessBoard board;
         public bool lastMovedWhite;
-        public ChessGame()
+
+        public static ChessGame BuildNew<T>() where T: ChessBoard, new()
         {
-            board = new ChessBoard960();
+            return new ChessGame(new T());
+        }
+
+        private ChessGame(ChessBoard board)
+        {
+            this.board = board;
             board.placeBlackFigures();
             board.placeWhiteFigures();
             lastMovedWhite=false;

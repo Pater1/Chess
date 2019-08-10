@@ -17,3 +17,13 @@ E:\Neumont\C#\ExitingProjects\OldChess\ChessCs2\obj\Debug\Chess.csproj.GenerateR
 E:\Neumont\C#\ExitingProjects\OldChess\ChessCs2\obj\Debug\Chess.csproj.CoreCompileInputs.cache
 E:\Neumont\C#\ExitingProjects\OldChess\ChessCs2\obj\Debug\Chess.exe
 E:\Neumont\C#\ExitingProjects\OldChess\ChessCs2\obj\Debug\Chess.pdb
+D:\Neumont\ProjectsInExistingCode\Chess\bin\Debug\Chess.exe.config
+D:\Neumont\ProjectsInExistingCode\Chess\bin\Debug\Chess.exe
+D:\Neumont\ProjectsInExistingCode\Chess\bin\Debug\Chess.pdb
+D:\Neumont\ProjectsInExistingCode\Chess\obj\Debug\Chess.csprojAssemblyReference.cache
+D:\Neumont\ProjectsInExistingCode\Chess\obj\Debug\Chess.GUI.window.resources
+D:\Neumont\ProjectsInExistingCode\Chess\obj\Debug\Chess.Properties.Resources.resources
+D:\Neumont\ProjectsInExistingCode\Chess\obj\Debug\Chess.csproj.GenerateResource.cache
+D:\Neumont\ProjectsInExistingCode\Chess\obj\Debug\Chess.csproj.CoreCompileInputs.cache
+D:\Neumont\ProjectsInExistingCode\Chess\obj\Debug\Chess.exe
+D:\Neumont\ProjectsInExistingCode\Chess\obj\Debug\Chess.pdb
